@@ -1,0 +1,1 @@
+g++ -I. -Wall -std=c++20 -D_DEFAULT_SOURCE -Wno-missing-braces -s -O1 main.cpp -o game -L./raylibLibrary -lraylib -lopengl32 -lgdi32 -lkernel32 -luser32 -lshell32 -lstdc++ -lwinmm
